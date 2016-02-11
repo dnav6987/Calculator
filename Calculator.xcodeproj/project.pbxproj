@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8A37BA1C614BFE00142300 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A37B91C614BFE00142300 /* CalculatorBrain.swift */; };
 		3E91A1A61C5AA71900F50517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91A1A51C5AA71900F50517 /* AppDelegate.swift */; };
 		3E91A1A81C5AA71900F50517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E91A1A71C5AA71900F50517 /* ViewController.swift */; };
 		3E91A1AB1C5AA71A00F50517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E91A1A91C5AA71A00F50517 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E8A37B91C614BFE00142300 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = SOURCE_ROOT; };
 		3E91A1A21C5AA71900F50517 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E91A1A51C5AA71900F50517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E91A1A71C5AA71900F50517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				3E91A1A51C5AA71900F50517 /* AppDelegate.swift */,
 				3E91A1A71C5AA71900F50517 /* ViewController.swift */,
+				3E8A37B91C614BFE00142300 /* CalculatorBrain.swift */,
 				3E91A1A91C5AA71A00F50517 /* Main.storyboard */,
 				3E91A1AC1C5AA71A00F50517 /* Assets.xcassets */,
 				3E91A1AE1C5AA71A00F50517 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3E91A1A11C5AA71900F50517 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PAVN8L9593;
 					};
 					3E91A1B51C5AA71A00F50517 = {
 						CreatedOnToolsVersion = 7.2;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8A37BA1C614BFE00142300 /* CalculatorBrain.swift in Sources */,
 				3E91A1A81C5AA71900F50517 /* ViewController.swift in Sources */,
 				3E91A1A61C5AA71900F50517 /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bowdoin.edu.2505.navarro.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bowdoin.edu.2505.navarro.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				3E91A1CC1C5AA71A00F50517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E91A1CD1C5AA71A00F50517 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				3E91A1CF1C5AA71A00F50517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E91A1D01C5AA71A00F50517 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				3E91A1D21C5AA71A00F50517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
